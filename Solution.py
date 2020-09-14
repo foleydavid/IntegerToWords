@@ -73,8 +73,8 @@ class Solution(object):
                 ans_str += Solution.eng_num[third_digit] + " "
         elif second_digit == 0 and triplet != 0:
             if third_digit != 0:
-                ans_str += eng_num[third_digit] + " "
+                ans_str += Solution.eng_num[third_digit] + " "
         elif triplet != 0:
-            ans_str += teens_num[final_two - 10] + " "
+            ans_str += Solution.teens_num[final_two - 10] + " "
             
         return ans_str
