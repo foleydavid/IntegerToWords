@@ -18,8 +18,6 @@ class Solution(object):
         """
         ans = ""
         num_list = []
-        num_str = str(num)
-        digits = len(num_str)
         
         #handle case of Zero
         if num == 0:
